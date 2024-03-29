@@ -460,15 +460,15 @@
             const { start, end, type } = selectedBet;
             if (type) {
                 if (type === 'even' && number % 2 === 0) {
-                    messageElement.textContent = 'You win!';
+                    messageElement.textContent = 'You win 3500$ !';
                 } else if (type === 'odd' && number % 2 !== 0) {
-                    messageElement.textContent = 'You win!';
+                    messageElement.textContent = 'You win 3500$ !';
                 } else {
                     messageElement.textContent = 'You lose!';
                 }
             } else {
                 if (number >= start && number <= end) {
-                    messageElement.textContent = 'You win!';
+                    messageElement.textContent = 'You win 3500$ !';
                 } else {
                     messageElement.textContent = 'You lose!';
                 }
